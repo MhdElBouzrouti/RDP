@@ -2,7 +2,7 @@
 printf "Installing RDP Be Patience... " >&2
 {
 sudo useradd -m DODO
-sudo adduser ALOK sudo
+sudo adduser DODO sudo
 echo 'RDP:2020' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt-get update
